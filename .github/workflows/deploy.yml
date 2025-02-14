@@ -18,7 +18,7 @@ jobs:
         script: |
             cd /home/ubuntu
             if [ ! -d "fastapi-book-project" ]; then
-                git clone https://github.com/Peacepearl/fastapi-book-project.git
+                git clone https://github.com/Code-etp/fastapi-book-project.git
             fi
             cd fastapi-book-project
             git pull
